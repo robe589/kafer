@@ -34,5 +34,7 @@ furthermore, please see [the reference](https://honkit.netlify.app)
 
 ## TODO
 
-* [ ] github pages
+* [x] github pages
+    * [https://jamashita.github.io/kafer](https://jamashita.github.io/kafer)
+* [ ] original domain
 * [ ] github actions
