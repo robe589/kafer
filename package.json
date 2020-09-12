@@ -11,7 +11,6 @@
   "scripts": {
     "build": "honkit build",
     "serve": "honkit serve",
-    "deploy": "yarn build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
