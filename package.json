@@ -1,0 +1,39 @@
+{
+  "name": "@jamashita/kafer",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jamashita/kafer.git"
+  },
+  "author": "jamashita <jamashita@arachnid.xyz>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn clean && gatsby build",
+    "clean": "gatsby clean",
+    "deploy": "yarn build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
+    "dev": "gatsby develop",
+    "dry": "yarn build && cp CNAME public/CNAME",
+    "format": "eslint --fix 'src/**/*.{ts,tsx}'",
+    "serve": "gatsby serve",
+    "start": "yarn develop",
+    "test": "jest test --detectOpenHandles --coverage",
+    "type-check": "tsc --noEmit",
+    "update": "yarn update:upgrade && yarn update:install",
+    "update:install": "yarn install && yarn upgrade",
+    "update:upgrade": "ncu --upgrade"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "husky": "4.3.0",
+    "lint-staged": "10.3.0",
+    "npm-check-updates": "9.0.1",
+    "sort-package-json": "1.44.0"
+  },
+  "engines": {
+    "node": ">= 14.5.0",
+    "npm": "npm is not supported"
+  },
+  "engineStrict": true
+}
