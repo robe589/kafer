@@ -25,7 +25,8 @@ yarn install
 yarn serve
 ``` 
 
-this sever does not support wysiwyg, but it can be display immediately what you write. 
+this sever does not support wysiwyg, but it can be display immediately what you write.
+furthermore, please see [the reference](https://honkit.netlify.app) 
 
 ## License
 
