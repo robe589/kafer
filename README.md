@@ -19,6 +19,18 @@ v14.5.0
 yarn install
 ```
 
+## Run in development mode
+
+```
+yarn serve
+``` 
+
+this sever does not support wysiwyg, but it can be display immediately what you write. 
+
 ## License
 
 [MIT](LICENSE)
+
+## TODO
+
+* [ ] gitbook pages
