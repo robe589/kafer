@@ -19,13 +19,14 @@ jobs:
           fetch-depth: 0
       - name: 'Install dependencies'
         run: 'yarn install --frozen-lockfile'
-      - name: 'Remove gh-pages cache'
-        run: 'rm -rf node_modules/gh-pages/.cache'
+      - name: 'Build'
+        run: 'yarn build'
       - name: 'Deploy'
         uses: 'peaceiris/actions-gh-pages@v3'
         with:
           user_email: 'action@jamashita.dev'
           user_name: 'jamashtia github actions'
           github_token: '${{ secrets.GITHUB_TOKEN }}'
+          publish_dir: './_book'
         env:
           NODE_ENV: 'production'
