@@ -9,23 +9,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "yarn clean && gatsby build",
-    "clean": "gatsby clean",
+    "build": "honkit build",
+    "serve": "honkit serve",
     "deploy": "yarn build && cp CNAME public/CNAME && gh-pages -d public && gatsby clean",
-    "dev": "gatsby develop",
-    "dry": "yarn build && cp CNAME public/CNAME",
-    "format": "eslint --fix 'src/**/*.{ts,tsx}'",
-    "serve": "gatsby serve",
-    "start": "yarn develop",
-    "test": "jest test --detectOpenHandles --coverage",
-    "type-check": "tsc --noEmit",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "honkit": "^3.6.6",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
     "npm-check-updates": "9.0.1",
