@@ -5,3 +5,4 @@
 ----
 
 * [Numeral systems](numeral-systems/README.md)
+    * [jamashita](numeral-systems/jamashita.md)
