@@ -34,4 +34,5 @@ furthermore, please see [the reference](https://honkit.netlify.app)
 
 ## TODO
 
-* [ ] gitbook pages
+* [ ] github pages
+* [ ] github actions
