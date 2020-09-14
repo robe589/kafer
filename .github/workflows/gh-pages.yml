@@ -28,5 +28,6 @@ jobs:
           user_name: 'jamashtia github actions'
           github_token: '${{ secrets.GITHUB_TOKEN }}'
           publish_dir: './_book'
+          cname: 'kafer.tegebu.com'
         env:
           NODE_ENV: 'production'
