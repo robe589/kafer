@@ -1,7 +1,8 @@
 # yoshixmk
 
 ## Repository
-<https://github.com/yoshixmk/griglia>
+
+<https://github.com/yoshixmk/griglia/tree/main/problems/numeral-systems>
 
 ## 初めの方針
 - 方式は、数値から文字列の、組み立て方法だけを書く。

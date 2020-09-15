@@ -2,7 +2,7 @@
 
 ## Repository
 
-https://github.com/jamashita/griglia/tree/my-answer/problems/numeral-systems
+<https://github.com/jamashita/griglia/tree/main/problems/numeral-systems>
 
 ### 考えたこと
 
