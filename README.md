@@ -1,5 +1,11 @@
 # Käfer
 
+![Deploy to gh-pages](https://github.com/tegebu/kafer/workflows/Deploy%20to%20gh-pages/badge.svg)
+
+## GitHub Pages
+
+<https://kafer.tegebu.com/>
+
 ## Requirement
 
 ```
@@ -25,17 +31,9 @@ yarn install
 yarn serve
 ``` 
 
-this sever does not support wysiwyg, but it can be display immediately what you write.
+this sever does not support wysiwyg, but it can be displayed immediately what you write.
 furthermore, please see [the reference](https://honkit.netlify.app) 
 
 ## License
 
 [MIT](LICENSE)
-
-## TODO
-
-* [x] github pages
-    * <http://kafer.tegebu.com/>
-* [x] original domain
-    * **http://kafer.tegebu.com/**
-* [x] github actions
