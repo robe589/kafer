@@ -8,6 +8,8 @@
 
 こちらのmarkdownを自分の名前のmarkdownとして複写して感想を書いてください。
 
+[感想戦用雛形](descanso.md)
+
 ## Participants
 
 * [jamashita](jamashita.md)
