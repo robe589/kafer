@@ -1,5 +1,7 @@
 # Käfer
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
 ![Deploy to gh-pages](https://github.com/tegebu/kafer/workflows/Deploy%20to%20gh-pages/badge.svg)
 
 ## GitHub Pages
