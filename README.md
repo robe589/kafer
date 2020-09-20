@@ -28,11 +28,11 @@ yarn install
 ## Run in development mode
 
 ```
-yarn serve
+yarn dev
 ``` 
 
 this sever does not support wysiwyg, but it can be displayed immediately what you write.
-furthermore, please see [the reference](https://honkit.netlify.app) 
+please see [the reference](https://honkit.netlify.app) for furthermore details. 
 
 ## License
 
