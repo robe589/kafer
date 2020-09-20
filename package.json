@@ -1,22 +1,26 @@
 {
   "name": "@jamashita/kafer",
   "version": "0.1.0",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:jamashita/kafer.git"
   },
-  "author": "jamashita <jamashita@arachnid.xyz>",
   "license": "MIT",
-  "private": true,
+  "author": "jamashita <jamashita@arachnid.xyz>",
   "scripts": {
     "build": "honkit build",
-    "serve": "honkit serve",
+    "commit": "git cz",
+    "dev": "honkit serve",
     "update": "yarn update:upgrade && yarn update:install",
     "update:install": "yarn install && yarn upgrade",
     "update:upgrade": "ncu --upgrade"
   },
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "git-cz": "4.7.1",
     "honkit": "3.6.6",
     "husky": "4.3.0",
     "lint-staged": "10.3.0",
