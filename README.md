@@ -8,16 +8,16 @@
 
 <https://kafer.tegebu.com/>
 
-## Requirement
+## Requisite
 
 ```
-> node -v       
+> node -v
 v14.5.0
 
-> npm -v        
+> npm -v
 6.14.5
 
-> yarn -v     
+> yarn -v
 1.22.5
 ```
 
@@ -25,6 +25,12 @@ v14.5.0
 
 ```
 yarn install
+```
+
+## Conventional commit
+
+```
+git cz
 ```
 
 ## Run in development mode
