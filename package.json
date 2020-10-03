@@ -4,10 +4,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:jamashita/kafer.git"
+    "url": "git@github.com:tegebu/kafer.git"
   },
   "license": "MIT",
-  "author": "jamashita <jamashita@arachnid.xyz>",
+  "author": "tegebu <info@tegebu.com>",
   "scripts": {
     "build": "honkit build",
     "commit": "git cz",
