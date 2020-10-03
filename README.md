@@ -1,15 +1,23 @@
 # Käfer
 
-## Requirement
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
+![Deploy to gh-pages](https://github.com/tegebu/kafer/workflows/Deploy%20to%20gh-pages/badge.svg)
+
+## GitHub Pages
+
+<https://kafer.tegebu.com/>
+
+## Requisite
 
 ```
-> node -v       
+> node -v
 v14.5.0
 
-> npm -v        
+> npm -v
 6.14.5
 
-> yarn -v     
+> yarn -v
 1.22.5
 ```
 
@@ -19,22 +27,21 @@ v14.5.0
 yarn install
 ```
 
+## Conventional commit
+
+```
+git cz
+```
+
 ## Run in development mode
 
 ```
-yarn serve
+yarn dev
 ``` 
 
-this sever does not support wysiwyg, but it can be display immediately what you write.
-furthermore, please see [the reference](https://honkit.netlify.app) 
+this sever does not support wysiwyg, but it can be displayed immediately what you write.
+please see [the reference](https://honkit.netlify.app) for furthermore details. 
 
 ## License
 
 [MIT](LICENSE)
-
-## TODO
-
-* [x] github pages
-    * [https://jamashita.github.io/kafer](https://jamashita.github.io/kafer)
-* [ ] original domain
-* [x] github actions
