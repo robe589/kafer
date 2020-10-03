@@ -4,7 +4,7 @@
 
 ----
 
-* [Numeral systems](number-range/README.md)
+* [Number range](number-range/README.md)
     * [元MD](number-range/original.md)
     * [感想専用雛形](number-range/descanso.md)
     * [jamashita](number-range/jamashita.md)
