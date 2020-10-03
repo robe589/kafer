@@ -1,6 +1,6 @@
 # Numeral systems
 
-[Numeral Systems](https://github.com/tegebu/griglia/tree/main/problems/numeral-systems)
+[Numeral systems](https://github.com/tegebu/griglia/tree/main/problems/numeral-systems)
 
 を解いた各人による感想です。
 
