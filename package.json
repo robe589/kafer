@@ -24,7 +24,7 @@
     "honkit": "3.6.6",
     "husky": "4.3.0",
     "lint-staged": "10.4.0",
-    "npm-check-updates": "9.0.1",
+    "npm-check-updates": "9.0.3",
     "sort-package-json": "1.46.0"
   },
   "engines": {
